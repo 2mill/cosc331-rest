@@ -2,13 +2,13 @@ const mongoose = require('mongoose');
 const express = require('express');
 const bodyParse = require('body-parser');
 const app = express;
-mongoose.connect('mongodb://localhost/test', { useNewUrlParser : true});
+mongoose.connect('mongodb://localhost/test', {useNewUrlParse : true});
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function callback() {//makes sure it started
 	console.log('h');
 })
-var studentSchema = new mongoose.Schema( {
+var studentSchema = new db.Schema( {
 	Student : String,
 	id : String,
 	firstName : String,
