@@ -1,0 +1,26 @@
+{
+  "name": "rest-app",
+  "version": "1.0.0",
+  "description": "a project for the computer networking class",
+  "main": "start.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "mongoose": "^5.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "asda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2mill/cosc331-rest.git"
+  },
+  "author": "Yannick Dorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2mill/cosc331-rest/issues"
+  },
+  "homepage": "https://github.com/2mill/cosc331-rest#readme"
+}
