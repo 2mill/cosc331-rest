@@ -1,13 +1,13 @@
-#WELCOME
+# WELCOME
 Welcome to my RESTful application that running on Node.JS which is utilizing Express, and Mongoose to connect with MongoDB. (Still some small work in progress needs to be completed).
 
 ## SETUP
 So this project is pretty straight forward, but here are some explenations
 
-###INSTALLATION
+### INSTALLATION
 1. Get on the CLI and run `git clone https://2mill/cosc331-react/`
 2. then run `mkdir cosc331-react && npm i` and wait for it to finish
-###ROUTES
+### ROUTES
 * Currently, the project has various weird routes
 *`GET`
 	*GET can be accessed through `/student`
